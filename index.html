@@ -1,8 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>广告联盟</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <title>小游戏</title>
+
+    <link rel="stylesheet" href="./yxmb/25/css/reset.min.css">
+    <link rel="stylesheet" href="./yxmb/25/css/style.css">
     <script type="text/javascript">
         (function(){
             var baidu = document.createElement("script");
@@ -12,38 +16,63 @@
         })();
     </script>
 </head>
+
 <body>
-    <ul>
-        <li ><a href="1.html">点击进入游戏链接</a></li>
-    </ul>
-    <div>
-<!--      这里放置应该cpc，一定要放置固定banner-->
-<!--        cpc(1)-->
-        <span>
-        </span>
-        </div>
-<!--        这里放置同一个广告联盟的cpc，也是固定banner-->
-<!--        cpc(2)-->
-    <div>
-        <span>
-        </span>
+
+<header>
+    <div class="container">
+        <h1><span>2</span><span>0</span><span>4</span><span>8</span></h1>
+        <p class="inspired"></p>
+        <a href="1.html">更多游戏</a>
     </div>
-<div>
+</header>
+
+<div class="container">
+    <div class="directions">
+        <p><strong>如何玩：</strong> 使用鼠标方向键键移动数字方块。相邻的两个方块数字相同，它们可合并成一个！</p>
+    </div>
+    <div class="scores">
+        <div class="score-container best-score">
+            最佳:
+            <div class="score">
+                <div id="bestScore">0</div>
+            </div>
+        </div>
+        <div class="score-container">
+            分数:
+            <div class="score">
+                <div id="score">0</div>
+                <div class="add" id="add"></div>
+            </div>
+        </div>
+    </div>
+    <div class="game">
+        <div id="tile-container" class="tile-container"></div>
+        <div class="end" id="end">游戏结束<div class="monkey">🙈</div><button class="btn not-recommended__item js-restart-btn" id="try-again">再试一次</button></div>
+    </div>
+
+    <div class="not-recommended">
+        <button class="btn not-recommended__item js-restart-btn" id="restart">重新开始</button>
+
+    </div>
+
 </div>
+
+<script src="./yxmb/25/js/index.js"></script>
 </body>
 </html>
 <!--以下都是放置cpv，提升这里要使用广告联盟底部漂浮广告，然后把抖动关了，如果出现那种点击了出现新页面的就直接关闭，重新创建一个，右下角漂浮的广告代码-->
-    <div>
-        <!--        皇冠联盟-->
-        <script src="https://adjs.mianyaojsj.com/slot?1857953001038183338-1386"></script>
-        <script src="https://adjs.mianyaojsj.com/slot?1857953001038183338-1386"></script>
-        <!--        88联盟-->
-        <script src="https://www.88tm6.cc:866/slot?8225462100335650212-4885"></script>
-        <script src="https://www.88tm6.cc:866/slot?8225462100335650212-4886"></script>
-        <!--        久游联盟-->
-        <script src="https://js.07dy.cc/slot?1758118957796665580-10754"></script>
-        <script src="https://js.07dy.cc/slot?1758118957796665580-10709"></script>
-        <!--         ZT联盟-->
-        <script src="https://js.0322cfmtl.cc/slot?7255774253627174051-12387"></script>
-        <script src="https://js.0322cfmtl.cc/slot?7255774253627174051-12388"></script>
-    </div>
+<div>
+    <!--        皇冠联盟-->
+    <script src="https://adjs.mianyaojsj.com/slot?1857953001038183338-1386"></script>
+    <script src="https://adjs.mianyaojsj.com/slot?1857953001038183338-1386"></script>
+    <!--        88联盟-->
+    <script src="https://www.88tm6.cc:866/slot?8225462100335650212-4885"></script>
+    <script src="https://www.88tm6.cc:866/slot?8225462100335650212-4886"></script>
+    <!--        久游联盟-->
+    <script src="https://js.07dy.cc/slot?1758118957796665580-10754"></script>
+    <script src="https://js.07dy.cc/slot?1758118957796665580-10709"></script>
+    <!--         ZT联盟-->
+    <script src="https://js.0322cfmtl.cc/slot?7255774253627174051-12387"></script>
+    <script src="https://js.0322cfmtl.cc/slot?7255774253627174051-12388"></script>
+</div>
